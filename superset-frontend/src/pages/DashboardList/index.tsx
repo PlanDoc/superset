@@ -68,6 +68,7 @@ import { DashboardStatus } from 'src/features/dashboards/types';
 import { UserWithPermissionsAndRoles } from 'src/types/bootstrapTypes';
 import { findPermission } from 'src/utils/findPermission';
 import { ModifiedInfo } from 'src/components/AuditInfo';
+import Role from "../../types/Role";
 
 const PAGE_SIZE = 25;
 const PASSWORDS_NEEDED_MESSAGE = t(
@@ -123,6 +124,9 @@ const DASHBOARD_COLUMNS_TO_FETCH = [
   'owners.first_name',
   'owners.last_name',
   'owners',
+  'roles.id',
+  'roles.name',
+  'roles',
   'tags.id',
   'tags.name',
   'tags.type',
@@ -382,6 +386,17 @@ function DashboardList(props: DashboardListProps) {
         }: any) => <FacePile users={owners} />,
         Header: t('Owners'),
         accessor: 'owners',
+        disableSortBy: true,
+        size: 'xl',
+      },
+      {
+        Cell: ({
+          row: {
+            original: { roles = [] },
+          },
+        }: any) => roles.map((r: Role) => r.name).join(', '),
+        Header: t('Roles'),
+        accessor: 'roles',
         disableSortBy: true,
         size: 'xl',
       },

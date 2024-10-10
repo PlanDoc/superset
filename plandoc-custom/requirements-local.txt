@@ -1,0 +1,4 @@
+Flask-OAuthlib
+Authlib
+Flask-OIDC
+Flask-OpenID

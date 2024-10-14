@@ -21,6 +21,9 @@ services:
   superset:
     environment: *common-variables
     secrets: *common-secrets
+    build:
+      args:
+         BUILD_TRANSLATIONS: true
 
   superset-init:
     environment: *common-variables

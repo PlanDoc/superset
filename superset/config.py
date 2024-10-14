@@ -374,6 +374,7 @@ LANGUAGES = {
     "es": {"flag": "es", "name": "Spanish"},
     "it": {"flag": "it", "name": "Italian"},
     "fr": {"flag": "fr", "name": "French"},
+    "hu": {"flag": "hu", "name": "Hungarian"},
     "zh": {"flag": "cn", "name": "Chinese"},
     "zh_TW": {"flag": "tw", "name": "Traditional Chinese"},
     "ja": {"flag": "jp", "name": "Japanese"},

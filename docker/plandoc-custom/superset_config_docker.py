@@ -32,3 +32,8 @@ FEATURE_FLAGS = {
 
 APP_ICON = '/static/assets/images/plandoc-custom/logo_bi.svg'
 FAVICONS = [{'href': '/static/assets/images/plandoc-custom/favicon.ico'}]
+
+LANGUAGES = {
+    "en": {"flag": "us", "name": "English"},
+    "hu": {"flag": "hu", "name": "Hungarian"}
+}

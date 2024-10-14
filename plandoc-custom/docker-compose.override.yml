@@ -2,7 +2,7 @@
 
 x-common-variables: &common-variables
   POSTGRES_PASSWORD: /run/secrets/postgres_password
-  DATABASE_PASSWORD: /run/secrets/postgres_password  
+  DATABASE_PASSWORD: /run/secrets/postgres_password
   SECRET_KEY: /run/secrets/secret_key
   OIDC_CLIENT_SECRETS: /run/secrets/oidc_client_secrets
   FLASK_DEBUG: false
@@ -10,7 +10,7 @@ x-common-variables: &common-variables
   SUPERSET_LOAD_EXAMPLES: no
   PYTHONPATH: /app/pythonpath:/app/docker/pythonpath_dev:/app/docker/plandoc-custom
   OIDC_OPENID_REALM: /run/secrets/oidc_openid_realm
-  
+
 x-common-secrets: &common-secrets
   - postgres_password
   - secret_key

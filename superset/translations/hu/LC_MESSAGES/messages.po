@@ -245,7 +245,7 @@ msgstr ""
 
 #, python-format
 msgid "%s Selected"
-msgstr ""
+msgstr "%s kiválasztva"
 
 #, python-format
 msgid "%s Selected (%s Physical, %s Virtual)"
@@ -359,7 +359,7 @@ msgid ""
 msgstr ""
 
 msgid "0 Selected"
-msgstr ""
+msgstr "Nincs kiválasztott elem"
 
 msgid "1 calendar day frequency"
 msgstr ""
@@ -1894,7 +1894,7 @@ msgid "Build"
 msgstr ""
 
 msgid "Bulk select"
-msgstr ""
+msgstr "Tömeges kijelölés"
 
 msgid "Bulk tag"
 msgstr ""
@@ -2194,7 +2194,7 @@ msgid "Character to interpret as decimal point"
 msgstr ""
 
 msgid "Chart"
-msgstr ""
+msgstr "Diagramm"
 
 #, python-format
 msgid "Chart %(id)s not found"
@@ -2507,7 +2507,7 @@ msgid "Click to edit label"
 msgstr ""
 
 msgid "Click to favorite/unfavorite"
-msgstr ""
+msgstr "Kattints a csillagozáshoz/csillagozás visszavonásához"
 
 msgid "Click to force-refresh"
 msgstr ""
@@ -3262,7 +3262,7 @@ msgid "Dashed"
 msgstr ""
 
 msgid "Data"
-msgstr ""
+msgstr "Adat"
 
 msgid "Data Imported"
 msgstr ""
@@ -6781,7 +6781,7 @@ msgid "Not all required fields are complete. Please provide the following:"
 msgstr ""
 
 msgid "Not available"
-msgstr ""
+msgstr "Nem elérhető"
 
 msgid "Not defined"
 msgstr ""
@@ -8263,13 +8263,13 @@ msgid ""
 msgstr ""
 
 msgid "SQL Query"
-msgstr ""
+msgstr "SQL Lekérdezés"
 
 msgid "SQL expression"
 msgstr ""
 
 msgid "SQL query"
-msgstr ""
+msgstr "SQL Lekérdezés"
 
 msgid "SQLAlchemy URI"
 msgstr ""
@@ -8772,7 +8772,7 @@ msgid "Select or type a custom value..."
 msgstr ""
 
 msgid "Select or type a value"
-msgstr ""
+msgstr "Válasszon ki vagy írjon be egy értéket"
 
 msgid "Select or type currency symbol"
 msgstr ""
@@ -10744,7 +10744,7 @@ msgid "This dashboard is now published"
 msgstr ""
 
 msgid "This dashboard is published. Click to make it a draft."
-msgstr ""
+msgstr "Ez a dashboard publikált. Kattintson, hogy vázlat legyen belőle."
 
 msgid ""
 "This dashboard is ready to embed. In your application, pass the following"
@@ -11224,7 +11224,7 @@ msgid "Type a number"
 msgstr ""
 
 msgid "Type a value"
-msgstr ""
+msgstr "Írjon be egy értéket"
 
 msgid "Type a value here"
 msgstr ""
@@ -12703,7 +12703,7 @@ msgid "change"
 msgstr ""
 
 msgid "chart"
-msgstr ""
+msgstr "Diagramm"
 
 msgid "charts"
 msgstr "Diagrammok"

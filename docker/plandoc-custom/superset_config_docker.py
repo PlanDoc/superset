@@ -28,6 +28,7 @@ OIDC_INTROSPECTION_AUTH_METHOD = 'client_secret_post'
 
 FEATURE_FLAGS = {
     'DASHBOARD_RBAC': True,
+    'ENABLE_TEMPLATE_PROCESSING': True
 }
 
 APP_ICON = '/static/assets/images/plandoc-custom/logo_bi.svg'

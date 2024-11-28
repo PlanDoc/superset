@@ -76,6 +76,8 @@ class AuthOIDCView(AuthOIDView):
                         user.roles.append(sm.find_role(final_roles[i]))
                     sm.update_user(user)
             else:
+                info = oidc.user_getinfo(['given_name', 'family_name'])
+                
                 user_roles = {r.name for r in user.roles}
 
                 new_roles = set(final_roles) - user_roles
@@ -86,6 +88,10 @@ class AuthOIDCView(AuthOIDView):
 
                 for role in removed_roles:
                     user.roles.remove(sm.find_role(role))
+                    
+                user.first_name = info.get('given_name')
+                user.last_name = info.get('family_name')
+                
                 sm.update_user(user)
 
             login_user(user, remember=False)
